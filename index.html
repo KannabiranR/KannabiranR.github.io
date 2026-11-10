@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kannabiran Ramadass | Portfolio</title>
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://googleapis.com">
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
     <link href="https://googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Icons -->
     <link rel="stylesheet" href="https://cloudflare.com">
     <style>
         :root {
@@ -47,43 +45,9 @@
         .metric-card { background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 8px; text-align: center; }
         .metric-card h3 { font-size: 2.25rem; color: var(--accent-blue); margin-bottom: 0.25rem; }
         .metric-card p { color: var(--text-secondary); font-size: 0.9rem; }
-        .timeline { display: flex; flex-direction: column; gap: 1.5rem; }
-        .timeline-item { background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.5rem; }
-        .timeline-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
-        .role-title { font-size: 1.25rem; font-weight: 600; }
-        .company-meta { color: var(--accent-blue); font-weight: 500; }
-        .duration-badge { background-color: rgba(56, 189, 248, 0.1); color: var(--accent-blue); padding: 0.25rem 0.75rem; border-radius: 30px; font-size: 0.85rem; }
-        .timeline-item ul { list-style-type: none; color: var(--text-secondary); }
-        .timeline-item ul li { position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; font-size: 0.95rem; }
-        .timeline-item ul li::before { content: "▹"; position: absolute; left: 0; color: var(--accent-blue); }
-        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
-        .skills-category { background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 8px; }
-        .skills-category h3 { font-size: 1.1rem; color: var(--accent-blue); margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
-        .tags-wrapper { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-        .tag { background-color: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-color); padding: 0.35rem 0.75rem; border-radius: 4px; font-size: 0.85rem; }
-        .certifications-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-        .cert-card { background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 1.25rem; border-radius: 8px; display: flex; align-items: center; gap: 1rem; }
-        .cert-icon { font-size: 1.75rem; color: var(--accent-blue); }
-        .cert-info h4 { font-size: 0.95rem; font-weight: 600; }
-        .cert-info p { font-size: 0.85rem; color: var(--text-secondary); }
-        .contact-layout { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2.5rem; }
-        @media (max-width: 768px) { .contact-layout { grid-template-columns: 1fr; } nav ul { display: none; } .hero h1 { font-size: 2.25rem; } }
-        .contact-info { display: flex; flex-direction: column; gap: 1.25rem; }
-        .info-link { display: flex; align-items: center; gap: 1rem; font-size: 1rem; color: var(--text-secondary); transition: color 0.2s; }
-        .info-link:hover { color: var(--accent-blue); }
-        .info-link i { font-size: 1.25rem; color: var(--accent-blue); width: 24px; }
-        .contact-form { display: flex; flex-direction: column; gap: 1rem; background-color: var(--bg-card); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-color); }
-        .form-group { display: flex; flex-direction: column; gap: 0.35rem; }
-        .form-group label { font-size: 0.85rem; color: var(--text-secondary); }
-        .form-group input, .form-group textarea { background-color: var(--bg-main); border: 1px solid var(--border-color); border-radius: 4px; padding: 0.75rem; color: var(--text-primary); font-family: inherit; }
-        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--accent-blue); }
-        footer { border-top: 1px solid var(--border-color); margin-top: 4rem; padding: 2rem 1rem; text-align: center; color: var(--text-secondary); font-size: 0.9rem; }
-        .footer-socials { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1rem; font-size: 1.25rem; }
-        .footer-socials a:hover { color: var(--accent-blue); }
     </style>
 </head>
 <body>
-
     <header>
         <div class="nav-container">
             <div class="logo">KR</div>
@@ -98,8 +62,23 @@
             </nav>
         </div>
     </header>
-
     <main>
+        <style>
+        .timeline { display: flex; flex-direction: column; gap: 1.5rem; }
+        .timeline-item { background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; padding: 1.5rem; }
+        .timeline-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+        .role-title { font-size: 1.25rem; font-weight: 600; }
+        .company-meta { color: var(--accent-blue); font-weight: 500; }
+        .duration-badge { background-color: rgba(56, 189, 248, 0.1); color: var(--accent-blue); padding: 0.25rem 0.75rem; border-radius: 30px; font-size: 0.85rem; }
+        .timeline-item ul { list-style-type: none; color: var(--text-secondary); }
+        .timeline-item ul li { position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; font-size: 0.95rem; }
+        .timeline-item ul li::before { content: "▹"; position: absolute; left: 0; color: var(--accent-blue); }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
+        .skills-category { background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 8px; }
+        .skills-category h3 { font-size: 1.1rem; color: var(--accent-blue); margin-bottom: 1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
+        .tags-wrapper { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .tag { background-color: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-color); padding: 0.35rem 0.75rem; border-radius: 4px; font-size: 0.85rem; }
+        </style>
         <section id="home" class="hero">
             <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
                 <img src="profile.jpg" alt="Kannabiran Ramadass" style="width: 100px; height: 100px; border-radius: 50%; border: 3px solid var(--accent-blue); object-fit: cover;" onerror="this.style.display='none'">
@@ -108,20 +87,71 @@
                     <h1 style="margin-bottom: 0;">Kannabiran Ramadass</h1>
                 </div>
             </div>
-            <p>A Lead Technical Writer with 10+ years of technical documentation architecture experience alongside 20+ years of comprehensive cross-industry expertise in IT, ERP, and Chemical sectors. Specializing in DITA structures, API documentation, and product workflow guides.</p>
+            <p>A Lead Technical Writer with 10+ years of technical documentation architecture experience alongside 20+ years of comprehensive cross-industry expertise in IT, ERP, and Chemical sectors.</p>
             <div class="cta-buttons">
                 <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Get in touch</a>
                 <a href="https://wa.me" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-whatsapp"></i> Chat Now</a>
             </div>
-            <div class="metrics-grid">
-                <div class="metric-card"><h3>10+ Yrs</h3><p>Technical Writing Focus</p></div>
-                <div class="metric-card"><h3>20+ Yrs</h3><p>Total Industry Experience</p></div>
-                <div class="metric-card"><h3>3+ Staff</h3><p>Managed & Led</p></div>
-                <div class="metric-card"><h3>100%</h3><p>Standard Compliance</p></div>
-            </div>
         </section>
-
         <section id="experience">
             <h2 class="section-title">Work Experience</h2>
             <div class="timeline">
                 <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div><div class="role-title">Lead – Technical Writer</div><div class="company-meta">HR365 Private Limited</div></div>
+                        <span class="duration-badge">2024 – Present</span>
+                    </div>
+                    <ul>
+                        <li>Manage a localized documentation production team of corporate writers.</li>
+                        <li>Configured automated workflow captures spanning structural HTML and video frames.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <style>
+        .certifications-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+        .cert-card { background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 1.25rem; border-radius: 8px; display: flex; align-items: center; gap: 1rem; }
+        .cert-icon { font-size: 1.75rem; color: var(--accent-blue); }
+        .cert-info h4 { font-size: 0.95rem; font-weight: 600; }
+        .cert-info p { font-size: 0.85rem; color: var(--text-secondary); }
+        .contact-layout { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2.5rem; }
+        .contact-info { display: flex; flex-direction: column; gap: 1.25rem; }
+        .info-link { display: flex; align-items: center; gap: 1rem; font-size: 1rem; color: var(--text-secondary); }
+        .info-link i { font-size: 1.25rem; color: var(--accent-blue); width: 24px; }
+        .contact-form { display: flex; flex-direction: column; gap: 1rem; background-color: var(--bg-card); padding: 1.5rem; border-radius: 8px; border: 1px solid var(--border-color); }
+        .form-group { display: flex; flex-direction: column; gap: 0.35rem; }
+        .form-group label { font-size: 0.85rem; color: var(--text-secondary); }
+        .form-group input, .form-group textarea { background-color: var(--bg-main); border: 1px solid var(--border-color); border-radius: 4px; padding: 0.75rem; color: var(--text-primary); font-family: inherit; }
+        footer { border-top: 1px solid var(--border-color); margin-top: 4rem; padding: 2rem 1rem; text-align: center; color: var(--text-secondary); }
+        </style>
+        <section id="skills">
+            <h2 class="section-title">Technical Tools</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h3>Systems</h3>
+                    <div class="tags-wrapper"><span class="tag">MadCap Flare</span><span class="tag">RoboHelp</span><span class="tag">Oxygen XML</span></div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <a href="mailto:kannabiranr@gmail.com" class="info-link"><i class="fa-solid fa-envelope"></i> kannabiranr@gmail.com</a>
+                    <a href="tel:+919841952662" class="info-link"><i class="fa-solid fa-phone"></i> +91 9841952662</a>
+                </div>
+                <form action="https://web3forms.com" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="831301">
+                    <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required></div>
+                    <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" required></div>
+                    <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="3" required></textarea></div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Kannabiran Ramadass. All rights reserved.</p>
+    </footer>
+</body>
+</html>
